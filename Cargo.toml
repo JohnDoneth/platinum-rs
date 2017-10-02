@@ -1,7 +1,7 @@
 [package]
 name = "platinum"
 version = "0.1.0"
-authors = ["John Doneth <Doneth7@gmail.com>"]
+authors = ["John Doneth <Doneth7@gmail.com>", "Jarred Parr <jpar721@gmail.com>"]
 
 [dependencies]
 
