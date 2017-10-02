@@ -1,6 +1,7 @@
 
-mod win32;
-use win32::*;
+extern crate platinum;
+
+use platinum::{Window, WindowBuilder, EventLoop};
 
 fn main() {
 
@@ -12,7 +13,7 @@ fn main() {
     window.show();
 
     loop {
-        win32::EventLoop::poll_events();
+        EventLoop::poll_events();
     }
 
 }

@@ -3,6 +3,10 @@ name = "platinum"
 version = "0.1.0"
 authors = ["John Doneth <Doneth7@gmail.com>", "Jarred Parr <jpar721@gmail.com>"]
 
+[[bin]]
+name = "basic_window"
+path = "examples/basic_window.rs"
+
 [dependencies]
 
 
