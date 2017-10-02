@@ -9,3 +9,6 @@ authors = ["John Doneth <Doneth7@gmail.com>", "Jarred Parr <jpar721@gmail.com>"]
 [target.'cfg(windows)'.dependencies]
 winapi = "*"
 user32-sys = "*"
+
+[target.'cfg(osx)'.dependencies]
+cocoa = "*"
